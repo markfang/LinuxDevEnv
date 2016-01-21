@@ -1,0 +1,3 @@
+sudo apt-get install ctags
+download taglist from http://www.vim.org/scripts/script.php?script_id=273
+Download the taglist.zip file and unzip the files to the $HOME/.vim folder.
