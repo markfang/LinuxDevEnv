@@ -64,9 +64,12 @@ map <F11> :let Tlist_WinWidth=35<CR>
 " cscope hot-key
 nmap <F12> :!find . -iname "*.[CH]" -o -iname "*.java" -o -iname "*.cpp" -o -iname "*.hpp" > cscope.files ; cscope -b -q<CR>:cs kill -1<CR>:cs add cscope.out<CR>
 
+" astyle coding style
+map <F7> : !astyle -A10 -s4 -S -w -Y -m0 -M -p -U -H -k3 -j -c -xC80 -z2 %<CR>
+
 " view saving and loading
-map <F7> : makeview<CR>
-map <F8> : loadview<CR>
+"map <F7> : makeview<CR>
+"map <F8> : loadview<CR>
 
 set cursorline
 " set cursorcolumn
