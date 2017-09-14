@@ -79,6 +79,9 @@ set t_Co=256
 set hlsearch
 set ruler
 
+" activates syntax highlighting among other things
+syntax on
+
 set laststatus=2
 set statusline=%4*%<\ %1*[%F]
 set statusline+=%4*\ %5*[%{&encoding}, " encoding
