@@ -99,4 +99,6 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+set backspace=indent,eol,start
+
 " ~/.vimrc ends here
