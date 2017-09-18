@@ -1,0 +1,5 @@
+vim plugin:
+    GNU global
+    Ctrl p
+    Leaderf
+    Fzf
