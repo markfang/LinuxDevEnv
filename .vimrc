@@ -52,20 +52,22 @@ let Tlist_File_Fold_Auto_Close=1
 let Tlist_GainFocus_On_ToggleOpen=1
 let Tlist_Process_File_Always=1
 let Tlist_WinHeight=10
-let Tlist_WinWidth=25
+let Tlist_WinWidth=35
 let Tlist_Use_Horiz_Window=0
 let Tlist_Auto_Highlight_Tag=1
 set updatetime=200
+map <F3> :tabp<CR>
+map <F4> :tabn<CR>
+map <F7> :let Tlist_WinWidth=35<CR>
+map <F8> :let Tlist_WinWidth=50<CR>
 map <F9> :Tlist<CR>
-map <F10> :let Tlist_WinWidth=25<CR>
-map <F11> :let Tlist_WinWidth=35<CR>
 " custom
 
 " cscope hot-key
 nmap <F12> :!find . -iname "*.[CH]" -o -iname "*.java" -o -iname "*.cpp" -o -iname "*.hpp" > cscope.files ; cscope -b -q<CR>:cs kill -1<CR>:cs add cscope.out<CR>
 
 " astyle coding style
-map <F7> : !astyle -A10 -s4 -S -w -Y -m0 -M -p -U -H -k3 -j -c -xC80 -z2 %<CR>
+" map <F7> : !astyle -A10 -s4 -S -w -Y -m0 -M -p -U -H -k3 -j -c -xC80 -z2 %<CR>
 
 " view saving and loading
 "map <F7> : makeview<CR>
@@ -79,7 +81,6 @@ set t_Co=256
 set hlsearch
 set ruler
 
-" activates syntax highlighting among other things
 syntax on
 
 set laststatus=2
