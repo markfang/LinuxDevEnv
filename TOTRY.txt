@@ -3,3 +3,7 @@ vim plugin:
     Ctrl p
     Leaderf
     Fzf
+    leaderp
+    ycm
+    youcompleteme
+    https://github.com/SirVer/ultisnips
