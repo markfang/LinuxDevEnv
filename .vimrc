@@ -63,9 +63,6 @@ map <F8> :let Tlist_WinWidth=50<CR>
 map <F9> :Tlist<CR>
 " custom
 
-" cscope hot-key
-nmap <F12> :!find . -iname "*.[CH]" -o -iname "*.java" -o -iname "*.cpp" -o -iname "*.hpp" > cscope.files ; cscope -b -q<CR>:cs kill -1<CR>:cs add cscope.out<CR>
-
 " astyle coding style
 " map <F7> : !astyle -A10 -s4 -S -w -Y -m0 -M -p -U -H -k3 -j -c -xC80 -z2 %<CR>
 
@@ -101,5 +98,9 @@ set shiftwidth=4
 set expandtab
 
 set backspace=indent,eol,start
+
+" For Gtags
+"set cscopeprg=gtags-cscope
+"cs add GTAGS
 
 " ~/.vimrc ends here

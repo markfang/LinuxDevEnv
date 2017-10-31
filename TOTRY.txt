@@ -1,5 +1,4 @@
 vim plugin:
-    GNU global
     Ctrl p
     Leaderf
     Fzf
@@ -7,3 +6,4 @@ vim plugin:
     ycm
     youcompleteme
     https://github.com/SirVer/ultisnips
+    GNU global
