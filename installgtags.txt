@@ -1,0 +1,2 @@
+install gtags
+install gen_tags.vim, this will enable gtags auto-gen and make cscope like Ctrl-\ interface

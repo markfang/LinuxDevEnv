@@ -1,2 +1,0 @@
-apt-get install cscope
-wget http://cscope.sourceforge.net/cscope_maps.vim -O ~/.vim/plugin/cscope_maps.vim
