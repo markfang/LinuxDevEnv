@@ -1,3 +1,5 @@
 install gtags
 install gen_tags.vim, this will enable gtags auto-gen and make cscope like Ctrl-\ interface
 gen_tags.vim:  https://github.com/jsfaint/gen_tags.vim.git
+
+install global-pygments-plugin for more language support (Ex. Python..)
